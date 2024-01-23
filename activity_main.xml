@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:foregroundTint="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/optimus"
+        android:layout_width="107dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/optimus" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:hint="Say something..."
+        android:textColorHint="#1F6E8C"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:layout_height="400dp"
+        android:background="#2E8A99"
+        android:padding="10dp"
+        android:text=" "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:contentDescription="Accessibility Description"/>
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/equalizer"
+        android:backgroundTint="#FFFFFFFF"
+        android:onClick="buttonAssist"
+        android:contentDescription="Accessibility Description"/>
+
+
+</LinearLayout>
